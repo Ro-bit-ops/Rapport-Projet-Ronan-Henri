@@ -11,8 +11,8 @@ RED.
 ```mermaid
 flowchart TD
     mosquitto[Serveur<br>mosquitto] --> |messages| RPi[raspberry Pi<br>Node-RED<br> Documentation]
-    RPi --> BDD
-    RPi --> GitHub --> Discord
+    RPi --> BDD --> Discord
+    RPi --> GitHub
 ```
 ```mermaid
 flowchart TD

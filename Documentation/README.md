@@ -26,3 +26,32 @@ Pour accéder à notre mosquitto on doit donc saisir un identifiant et un mot de
 Choix du réseau et consommation :
 
 Nous avons choisi d’opter pour LoraChoco. En effet, ce réseau est moins énergivore et plus adapté à ce genre de projet.
+
+
+CONCLUSION DU PROJET :
+
+Lire la température avec le capteur LM35 sur l’ESP32 --> CHECK
+
+Transmettre les données au Raspberry Pi via MQTT --> CHECK
+
+Minimiser la consommation électrique du module --> CHECK
+
+Enregistrer les données dans une base SQLite sur le Raspberry Pi --> CHECK
+
+Assurer une récupération efficace des données pour leur exploitation --> CHECK
+
+Utiliser Node-RED pour afficher les données en temps réel --> CHECK
+
+Ajouter un graphique interactif pour visualiser l’évolution de la température --> CHECK
+
+Implémenter une authentification MQTT --> CHECK
+
+Mettre en place un système d’alerte (email, discord, buzzer) si la température dépasse un seuil (modifiable par MQTT) --> CHECK
+
+Intégrer une LED témoin sur l’ESP32 pour signaler un problème (couleur rouge) --> CHECK
+
+Rédiger une documentation complète sur l’installation, la configuration et le fonctionnement --> CHECK
+
+Expliquer l’architecture du projet avec un schéma clair --> CHECK
+
+Fournir un guide de dépannage pour les problèmes courants --> CHECK
